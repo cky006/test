@@ -20,6 +20,12 @@ summary(cars)
 plot(cars$speed, cars$dist)
 ```
 
+#option+command+I: generates r chunk
+
+```{r}
+plot(1:10, typ="o", col="blue")
+```
+
 ## Including Plots
 
 You can also embed plots, for example:
