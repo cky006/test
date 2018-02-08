@@ -33,7 +33,7 @@ option+command+I: generates r chunk
 ===================================
 
 ``` r
-plot(1:10, typ="o", col="red",lwd=3)
+plot(1:10, typ="o", col="red",lwd=2)
 ```
 
 ![](rstudio_report_files/figure-markdown_github/unnamed-chunk-1-1.png)
