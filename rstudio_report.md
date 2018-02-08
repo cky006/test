@@ -23,6 +23,21 @@ summary(cars)
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
 
+``` r
+plot(cars$speed, cars$dist)
+```
+
+![](rstudio_report_files/figure-markdown_github/cars-1.png)
+
+option+command+I: generates r chunk
+===================================
+
+``` r
+plot(1:10, typ="o", col="blue")
+```
+
+![](rstudio_report_files/figure-markdown_github/unnamed-chunk-1-1.png)
+
 Including Plots
 ---------------
 
